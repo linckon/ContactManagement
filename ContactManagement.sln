@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.Entities", "ContactManagement.Entities\ContactManagement.Entities.csproj", "{A857E109-9EBF-4753-B607-517D1BE75FA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.DataAccess", "ContactManagement.DataAccess\ContactManagement.DataAccess.csproj", "{2D87007C-B81E-4303-8EB7-02300A250797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.Services", "ContactManagement.Services\ContactManagement.Services.csproj", "{ADCD77D0-2C5A-4D23-AE49-610B1CABEB6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.ViewModel", "ContactManagement.ViewModel\ContactManagement.ViewModel.csproj", "{E5F212CC-C107-48C5-A236-11876A1200AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.ApiApplication", "ContactManagement.ApiApplication\ContactManagement.ApiApplication.csproj", "{772D3439-2A96-4A17-B02E-A1DC8D179BB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.WebClient", "ContactManagement.WebClient\ContactManagement.WebClient.csproj", "{AF96C2CC-454E-459F-A513-1FFC7058098A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A857E109-9EBF-4753-B607-517D1BE75FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A857E109-9EBF-4753-B607-517D1BE75FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A857E109-9EBF-4753-B607-517D1BE75FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A857E109-9EBF-4753-B607-517D1BE75FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D87007C-B81E-4303-8EB7-02300A250797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D87007C-B81E-4303-8EB7-02300A250797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D87007C-B81E-4303-8EB7-02300A250797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D87007C-B81E-4303-8EB7-02300A250797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADCD77D0-2C5A-4D23-AE49-610B1CABEB6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADCD77D0-2C5A-4D23-AE49-610B1CABEB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADCD77D0-2C5A-4D23-AE49-610B1CABEB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADCD77D0-2C5A-4D23-AE49-610B1CABEB6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F212CC-C107-48C5-A236-11876A1200AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F212CC-C107-48C5-A236-11876A1200AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F212CC-C107-48C5-A236-11876A1200AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F212CC-C107-48C5-A236-11876A1200AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{772D3439-2A96-4A17-B02E-A1DC8D179BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772D3439-2A96-4A17-B02E-A1DC8D179BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772D3439-2A96-4A17-B02E-A1DC8D179BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{772D3439-2A96-4A17-B02E-A1DC8D179BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF96C2CC-454E-459F-A513-1FFC7058098A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF96C2CC-454E-459F-A513-1FFC7058098A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF96C2CC-454E-459F-A513-1FFC7058098A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF96C2CC-454E-459F-A513-1FFC7058098A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

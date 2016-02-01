@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="contactApp">
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <!--<base href="/">-->
+    <title>Contact Management Book</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="App_Styles/appStyles.css" rel="stylesheet" />
+
+
+
+</head>
+<body>
+    <div id="wrap">
+        <div id="main" class="container">
+            <div class="navbar navbar-default navbar-fixed-top">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand active" ui-sref="contacts">Contact Management Book</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a ui-sref="createcontact" class="active">Add Contact<i class="fa fa-info-circle fa-fw pull-right"></i></a></li>
+                        <li><a ui-sref="/">About<i class="fa fa-info-circle fa-fw pull-right"></i></a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div ui-view></div>
+        </div>
+    </div>
+
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-ui-router.min.js"></script>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <script src="App_Scripts/contactmanagement.js"></script>
+    <script src="App_Scripts/Domain/IEntity.js"></script>
+    <script src="App_Scripts/Domain/ContactPerson.js"></script>
+    <script src="App_Scripts/Domain/ResponseModel.js"></script>
+    <script src="App_Scripts/Services/api.service.js"></script>
+    <script src="App_Scripts/Services/data.service.js"></script>
+    <script src="App_Scripts/ContactPerson/contactpersons.controller.js"></script>
+    <script src="App_Scripts/ContactPerson/contactperson.controller.js"></script>
+    <script src="App_Scripts/ContactPerson/contactpersondetail.controller.js"></script>
+</body>
+</html>
